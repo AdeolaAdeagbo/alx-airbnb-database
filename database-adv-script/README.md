@@ -10,6 +10,9 @@ This directory contains advanced SQL practice tasks for the **Airbnb database pr
 - `subqueries.sql`  
   Contains SQL queries demonstrating the use of **non-correlated** and **correlated** subqueries.
 
+- `aggregations_and_window_functions.sql`  
+  Contains SQL queries using aggregation functions (`COUNT`, `SUM`, etc.) and window functions (`RANK`, `ROW_NUMBER`) to analyze data.
+
 ## Tasks
 
 1. **Joins**
@@ -21,4 +24,4 @@ This directory contains advanced SQL practice tasks for the **Airbnb database pr
    - Find all properties where the average rating is greater than 4.0 using a subquery.
    - Use a correlated subquery to find users who have made more than 3 bookings.
 
- 
+3. **Aggregations and Window Function**
