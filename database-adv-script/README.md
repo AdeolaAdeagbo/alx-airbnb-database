@@ -1,18 +1,24 @@
-# Advanced SQL: Complex Joins
+# Advanced SQL Scripts
 
-This folder contains SQL queries demonstrating different types of joins.
+This directory contains advanced SQL practice tasks for the **Airbnb database project**.
 
 ## Files
-- **joins_queries.sql**: Contains the SQL queries.
 
-## Queries
-1. **INNER JOIN**  
-   Retrieves all bookings and the respective users who made those bookings.
+- `joins_queries.sql`  
+  Contains SQL queries using INNER JOIN, LEFT JOIN, and FULL OUTER JOIN.
 
-2. **LEFT JOIN**  
-   Retrieves all properties and their reviews, including properties that have no reviews.
+- `subqueries.sql`  
+  Contains SQL queries demonstrating the use of **non-correlated** and **correlated** subqueries.
 
-3. **FULL OUTER JOIN**  
-   Retrieves all users and all bookings, even if the user has no booking or a booking is not linked to a user.
-   > Note: MySQL does not support FULL OUTER JOIN directly. It can be simulated using a UNION of LEFT JOIN and RIGHT JOIN.
+## Tasks
+
+1. **Joins**
+   - Retrieve bookings with their respective users (INNER JOIN).
+   - Retrieve properties and their reviews, including those with no reviews (LEFT JOIN).
+   - Retrieve all users and bookings, even if not linked (FULL OUTER JOIN).
+
+2. **Subqueries**
+   - Find all properties where the average rating is greater than 4.0 using a subquery.
+   - Use a correlated subquery to find users who have made more than 3 bookings.
+
  
